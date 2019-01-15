@@ -29,6 +29,9 @@ RUN sed -i 's/SOUND:YES/SOUND:NO/' /df_linux/data/init/init.txt
 RUN sed -i 's/INTRO:YES/INTRO:NO/' /df_linux/data/init/init.txt
 RUN sed -i 's/WINDOWEDX:80/WINDOWEDX:1024/' /df_linux/data/init/init.txt
 RUN sed -i 's/WINDOWEDY:25/WINDOWEDY:740/' /df_linux/data/init/init.txt
+RUN sed -i 's/AUTOSAVE:NONE/AUTOSAVE:SEASONAL/' /df_linux/data/init/init.txt
+RUN sed -i 's/AUTOSAVE_PAUSE:NO/AUTOSAVE_PAUSE:YES/' /df_linux/data/init/init.txt
+RUN sed -i 's/SHOW_FLOW_AMOUNTS:NO/SHOW_FLOW_AMOUNTS:YES/' /df_linux/data/init/init.txt
 RUN sed -i 's/FONT:curses_640x300.png/FONT:curses_800x600.png/' /df_linux/data/init/init.txt
 RUN sed -i 's/FPS_CAP:100/FPS_CAP:120/' /df_linux/data/init/init.txt
 RUN sed -i 's/G_FPS_CAP:50/G_FPS_CAP:60/' /df_linux/data/init/init.txt

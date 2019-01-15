@@ -1,0 +1,12 @@
+version: "3.7"
+
+services:
+  df:
+    restart: always
+    image: quaan/dwarffortress:latest
+    build:
+      context: dwarffortress
+    volumes:
+    - ~/.dwarffortress/save:/df_linux/data/save
+    ports:
+    - "${HTTP_PORT}:6080"

@@ -1,0 +1,8 @@
+[app] (name=Dwarf_Fortress) (class=Dwarf_Fortress)
+  [Workspace]   {0}
+  [Maximized]   {yes}
+[end]
+[app] (name=dfhack) (class=XTerm)
+  [Workspace]   {1}
+  [Maximized]   {yes}
+[end]
